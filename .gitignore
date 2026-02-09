@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local AI/ML Files
+chroma_db/
+.chromadb/
+*.faiss
+models/
+.cache/
+.huggingface/
+
+# Ollama files
+.ollama/
+
+# Data
+data/processed/
+
+# Logs
+*.log
+logs/
+
+# Temporary
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
